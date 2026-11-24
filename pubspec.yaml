@@ -1,0 +1,23 @@
+name: roznamcha
+description: "Roznamcha, the course app of Mobile Application Development: step 5, the entries in one notifier that every screen listens to, with edit and delete, and the code in three layers."
+publish_to: 'none'
+version: 0.5.0+1
+
+environment:
+  sdk: ^3.14.0
+
+dependencies:
+  dio: ^5.11.1
+  flutter:
+    sdk: flutter
+  material_ui: ^1.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/welcome.png
